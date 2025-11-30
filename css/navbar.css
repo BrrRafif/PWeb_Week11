@@ -1,0 +1,28 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar .dropdown-menu {
+  min-width: 100%;
+  right: 0;
+  left: auto;
+  margin-top: 0;
+  border-radius: 0;
+  background-color: #2980b9 !important;
+  border: none !important;
+  box-shadow: none;
+}
+
+.navbar-nav .dropdown-menu > li > a {
+  padding: 10px 15px; 
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu > li > a {
+  color: #ffffff !important; 
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav .dropdown-menu > li > a:focus {
+  color: #cccccc !important;
+  background-color: transparent !important;
+}

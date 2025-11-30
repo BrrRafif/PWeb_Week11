@@ -1,0 +1,32 @@
+footer {
+  background-color: #2980b9; 
+  color: #f5f5f5; 
+  padding: 20px 0; 
+  border: none; 
+  position: fixed; 
+  bottom: 0;
+  left: 0;
+  z-index: 2000;
+  width: 100%;
+  text-align: center;
+  margin-top: 10vh;
+}      
+
+footer .col-md-6 {
+  width: 100% !important;
+  float: none !important;
+  margin: 0 auto; 
+}
+
+footer h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+footer .col-md-12 {
+    border-top: 1px solid #444;
+    margin-top: 20px;
+    padding-top: 15px;
+}
